@@ -31,7 +31,7 @@ bool go(string str,string pat,ll s=0,ll p=0)
 }
 int main()
 {
-	take_input;
+	// take_input;
 	fast;
 	string str,pat;
 	cin>>str>>pat;
