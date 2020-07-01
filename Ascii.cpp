@@ -5,7 +5,7 @@ using namespace std;
 #define ll long long int
 const ll mod=1e9+7;
 ll dp[1002][1002];
-ll go(string s1,string s2,ll i=0,ll j=0)
+ll go(string &s1,string &s2,ll i=0,ll j=0)
 {
 
 	if(dp[i][j]!=-1)
